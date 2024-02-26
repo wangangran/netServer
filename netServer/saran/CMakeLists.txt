@@ -33,5 +33,4 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/src/dataStruct")
 
 
 #example
-add_subdirectory("${PROJECT_SOURCE_DIR}/example/echo")
 add_subdirectory("${PROJECT_SOURCE_DIR}/example/log")

@@ -27,8 +27,8 @@ public:
     void doTask();
 private:
     std::deque<Task> works_;
-    std::list<std::unique_ptr<Thread>> threads_;   
-    bool exit = false; 
+    std::list<std::unique_ptr<Thread>> threads_;
+    bool exit = false;
     Mutex mutex_;
     Condition condition_;
 };
