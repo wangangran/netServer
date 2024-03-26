@@ -19,7 +19,7 @@ if (SARAN_BUILD_TESTS)
         RBTreeTest.cpp
     )
 
-    target_link_libraries(saranBaseTest saranBase ${GTEST_LIBRARIES} ${GMOCK_LIBRARIES} gtest_main)
+    target_link_libraries(saranBaseTest saranBase ${GTEST_LIBRARIES} ${GMOCK_LIBRARIES} gtest_main gmock_main)
     add_test(NAME "saranBaseTest" COMMAND "saranBaseTest")
 endif()
 
